@@ -14,7 +14,9 @@ public class HinhHoc {
             System.out.println("0. Exit");
             System.out.println("Input my choice: ");
             choice = scanner.nextInt();
-
+            if (choice < 0 || choice > 3) {
+                System.out.println("Lựa chọn không có trong menu, mời nhập lại!!!");
+            }
             switch (choice) {
                 case 1:
                     rectangle(scanner);
@@ -39,6 +41,9 @@ public class HinhHoc {
             System.out.println("0. Exit");
             System.out.println("Input my choice: ");
             choice1 = scanner.nextInt();
+            if (choice1 < 0 || choice1 > 4) {
+                System.out.println("Lựa chọn không có trong menu, mời nhập lại!!!");
+            }
             switch (choice1) {
                 case 1:
                     triangleTopLeft(scanner);
@@ -149,9 +154,9 @@ public class HinhHoc {
 
         for (int i = 1; i <= height; i++) {
             for (int j = 1; j <= height - i; j++) {
-                System.out.print("  ");
+                System.out.print(" ");
             }
-            for (int k = 1; k <= 2 * i - 1; k++) {
+            for (int k = 1; k <= i; k++) {
                 System.out.print("* ");
             }
             System.out.println();
