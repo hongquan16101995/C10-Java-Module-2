@@ -1,4 +1,4 @@
-package demo;
+package bai4.lythuyet.demo;
 
 import demo1.Animal;
 

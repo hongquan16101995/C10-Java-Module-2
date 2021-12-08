@@ -1,3 +1,5 @@
+package bai3.lythuyet;
+
 import java.util.Scanner;
 
 public class Method {

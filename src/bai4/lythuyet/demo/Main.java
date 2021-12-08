@@ -1,6 +1,6 @@
-package demo;
+package bai4.lythuyet.demo;
 
-import demo1.Animal;
+import bai4.lythuyet.demo1.Animal;
 
 public class Main {
     public static void main(String[] args) {

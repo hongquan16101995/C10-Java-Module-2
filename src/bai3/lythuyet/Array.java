@@ -1,5 +1,5 @@
-import java.time.LocalDate;
-import java.util.Date;
+package bai3.lythuyet;
+
 import java.util.Scanner;
 
 public class Array {

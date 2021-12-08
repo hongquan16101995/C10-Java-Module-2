@@ -1,4 +1,4 @@
-package demo1;
+package bai4.lythuyet.demo1;
 
 public class Animal {
     private String name;
