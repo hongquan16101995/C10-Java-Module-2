@@ -19,7 +19,7 @@ public class Animal {
         this.gender = gender;
     }
 
-    protected String getName() {
+    public String getName() {
         return name;
     }
 

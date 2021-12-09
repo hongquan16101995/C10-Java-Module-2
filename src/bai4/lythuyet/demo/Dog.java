@@ -1,6 +1,6 @@
 package bai4.lythuyet.demo;
 
-import demo1.Animal;
+import bai4.lythuyet.demo1.Animal;
 
 public class Dog extends Animal {
     boolean status;
@@ -22,9 +22,7 @@ public class Dog extends Animal {
     }
 
     public static void main(String[] args) {
-        Dog dog1 = new Dog("aaaaaaaaaaaa", 1, 10, 0.5, "Male");
-//        System.out.println(dog1.age);
-        System.out.println(dog1.weight);
+        Animal dog1 = new Animal("aaaaaaaaaaaa", 1, 10, 0.5, "Male");
         System.out.println(dog1.height);
         System.out.println(dog1.getName());
     }
