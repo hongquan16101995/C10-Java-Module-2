@@ -7,6 +7,14 @@ public class Student{
     public static String school = "CG";
     public String name;
 
+    public Student(int id, String name) {
+        this.name = name;
+    }
+
+    public Student(int id) {
+        this.id = id;
+    }
+
     public Student() {
         id_basic_value++;
         this.id = id_basic_value;
