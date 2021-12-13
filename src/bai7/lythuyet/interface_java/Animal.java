@@ -1,4 +1,4 @@
-package bai7.lythuyet;
+package bai7.lythuyet.interface_java;
 
 public interface Animal {
     void makeSound();

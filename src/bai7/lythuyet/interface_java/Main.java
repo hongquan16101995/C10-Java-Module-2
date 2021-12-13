@@ -1,4 +1,4 @@
-package bai7.lythuyet;
+package bai7.lythuyet.interface_java;
 
 public class Main {
     public static void main(String[] args) {
