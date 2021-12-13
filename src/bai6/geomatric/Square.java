@@ -1,4 +1,4 @@
-package bai6.lythuyet.geomatric;
+package bai6.geomatric;
 
 public class Square extends Rectangle{
     public Square(double side) {
