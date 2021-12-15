@@ -1,3 +1,5 @@
+package bai8;
+
 import bai8.Calculator;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.Test;
