@@ -2,13 +2,10 @@ package bai11;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
-import java.util.Queue;
 import java.util.Stack;
 
 public class Main {
     public static void main(String[] args) {
-
-
         ArrayList<Object> integers = new ArrayList<>();
         integers.add(null);
         integers.add(1);
