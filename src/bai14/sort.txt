@@ -1,0 +1,9 @@
+Thuật toán sắp xếp: là thuật toán để sắp xếp các phần tử của 1 Collection theo xu hướng tăng dần hoặc giảm dần
+Phân loại:
+    + Sắp xếp ổn định
+    + Sắp xếp so sánh
+Các loại sắp xếp:
+    + Nổi bọt
+    + Chọn
+    + Chèn
+Độ phức tạp thuật toán của sắp xếp: 0(n^2)
